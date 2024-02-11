@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
+## Make auth work
+
+We need to do a few things to get this:
+
+- Run "amplify init"
+- Run "amplify import auth". In this step, you can select the cognito pool that is created on your account
+- Run "amplify push" for update the changes
+
+### Related information:
+- https://docs.amplify.aws/angular/start/project-setup/prerequisites/
+- https://docs.amplify.aws/angular/build-a-backend/auth/set-up-auth/
+- Backend project for create and configuring user pools -> https://github.com/Rollerf/cognito-api-login/tree/feat/aws-amplify
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
